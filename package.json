@@ -1,0 +1,25 @@
+{
+  "name": "vim-search-highlight-sync",
+  "displayName": "Vim Search Highlight Sync",
+  "description": "Vim Search Highlight Sync — independently maintained local extension.",
+  "publisher": "local",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {},
+  "extensionDependencies": [
+    "vscodevim.vim"
+  ]
+}

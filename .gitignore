@@ -1,0 +1,13 @@
+dist/
+node_modules/
+__pycache__/
+*.pyc
+*.vsix
+backups/
+test-results/
+.runtime/
+build/
+*.so
+*.log
+*.sock
+.DS_Store
